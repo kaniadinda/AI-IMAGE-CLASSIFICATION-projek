@@ -1,0 +1,11 @@
+# Data
+test/
+train/
+
+# Trained model & dataset
+*.h5
+*.zip
+
+# Python cache
+__pycache__/
+.ipynb_checkpoints/
