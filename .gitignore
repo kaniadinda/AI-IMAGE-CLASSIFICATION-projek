@@ -2,9 +2,9 @@
 test/
 train/
 
-# Trained model & dataset
-*.h5
-*.zip
+# # Trained model & dataset
+# *.h5
+# *.zip
 
 # Python cache
 __pycache__/
