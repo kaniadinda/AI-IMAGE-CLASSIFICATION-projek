@@ -15,7 +15,6 @@ if not os.path.exists(MODEL_PATH):
 model = tf.keras.models.load_model(MODEL_PATH)
 
 st.title("AI Image Classifier")
-st.write("Detect whether an image is REAL or AI-generated")
 
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
